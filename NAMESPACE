@@ -1,0 +1,8 @@
+exportPattern("^[[:alpha:]]+")
+
+importFrom(parallel, mclapply)
+importFrom(zoo, rollapply)
+importFrom(limma, normalizeQuantiles)
+import(IRanges)
+import(R.utils)
+import(RUnit)
